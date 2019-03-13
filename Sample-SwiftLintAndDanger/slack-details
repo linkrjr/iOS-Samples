@@ -1,0 +1,4 @@
+curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' YOUR_WEBHOOK_URL_HERE
+
+
+https://hooks.slack.com/services/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

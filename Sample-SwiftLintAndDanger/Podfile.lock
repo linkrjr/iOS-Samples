@@ -1,0 +1,28 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - Criollo (0.5.5):
+    - CocoaAsyncSocket (~> 7.6)
+  - SwiftLint (0.29.1)
+  - SwiftLocalhost (0.0.7):
+    - Criollo
+
+DEPENDENCIES:
+  - SwiftLint
+  - SwiftLocalhost
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - Criollo
+    - SwiftLint
+    - SwiftLocalhost
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  Criollo: 617173837c296ca4248b0b058f36ce9b91e5c25b
+  SwiftLint: 6772320e40b52049053a518c17db9b0634a0b45a
+  SwiftLocalhost: f68ab30084edd2b438438dfe6b90b0ace4fdcf52
+
+PODFILE CHECKSUM: 728a5ec3279d9bd26ffaeea7daf5a5815493594c
+
+COCOAPODS: 1.6.1

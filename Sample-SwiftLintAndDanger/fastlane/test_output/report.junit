@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Sample-SwiftLintAndDangerTests.xctest' tests='2' failures='0'>
+  <testsuite name='Sample_SwiftLintAndDangerTests.Sample_SwiftLintAndDangerTests' tests='2' failures='0'>
+    <testcase classname='Sample_SwiftLintAndDangerTests.Sample_SwiftLintAndDangerTests' name='testExample' time='0.001'/>
+    <testcase classname='Sample_SwiftLintAndDangerTests.Sample_SwiftLintAndDangerTests' name='testPerformanceExample' time='0.291'/>
+  </testsuite>
+</testsuites>
