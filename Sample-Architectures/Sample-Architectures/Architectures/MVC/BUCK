@@ -1,0 +1,42 @@
+apple_bundle(
+  name = 'Sample-Architectures-MVC-App',
+  binary = ':Sample-Architectures-MVC-Binary',
+  extension = 'app',
+  info_plist = 'Sample-Architectures-MVC.plist'
+)
+
+apple_binary(
+  name = 'Sample-Architectures-MVC-Binary',
+  deps = [],#[':BuckDemoAppResources', '//common:hello'],
+  # preprocessor_flags = ['-fobjc-arc', '-Wno-objc-designated-initializers'],
+  preprocessor_flags = ['-fobjc-arc'],
+  srcs = glob([
+    'Sample-Architectures/Controllers/*.swift',
+    'Sample-Architectures/CustomViews/*.swift',
+    'Sample-Architectures/Models/*.swift',
+    'Sample-Architectures/UI/*.swift',
+    'Sample-Architectures/Utils/*.swift',
+    'Sample-Architectures/Architectures/MVC/*.swift'
+  ]),
+  frameworks = [
+    '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+    '$SDKROOT/System/Library/Frameworks/Foundation.framework',
+  ],
+)
+
+apple_package(
+  name = 'Sample-Architectures-MVC-Package',
+  bundle = ':Sample-Architectures-MVC-App',
+)
+
+# apple_test(
+#   name = 'SampleArchitecturesAppTest',
+#   test_host_app = ':SampleArchitecturesApp',
+#   srcs = ['tests/SampleArchitecturesTest.m'],
+#   info_plist = 'tests/Test.plist',
+#   frameworks = [
+#     '$SDKROOT/System/Library/Frameworks/Foundation.framework',
+#     '$PLATFORM_DIR/Developer/Library/Frameworks/XCTest.framework',
+#     '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+#   ],
+# )

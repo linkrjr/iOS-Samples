@@ -1,0 +1,68 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '12.0'
+
+def main_pods
+    use_frameworks!
+    
+    pod 'Alamofire', '~> 4.2'
+    pod 'SnapKit', '~> 3.0'
+    
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxBlocking'
+    pod 'RxOptional'
+    pod 'RxAlamofire'
+    
+    pod 'PKHUD', '~> 4.0'
+
+    pod 'ReSwift', '~> 4.0'
+    pod 'ReSwiftRouter', '~> 0.6'
+    
+    pod 'Moya'
+    pod 'BrightFutures'
+end
+
+target 'MVC' do
+  main_pods
+end
+
+target 'MVP' do
+    main_pods
+end
+
+target 'MVVM' do
+    main_pods
+end
+
+target 'PureMVC' do
+    main_pods
+    pod 'puremvc'
+end
+
+target 'Re_Swift' do
+    main_pods
+end
+
+target 'Riblets' do
+    main_pods
+end
+
+target 'Viper' do
+    main_pods
+end
+
+
+#target 'Sample-ArchitecturesTests' do
+#    use_frameworks!
+#    
+#    pod 'Nimble', '~> 5.1'
+#    pod 'Quick', '~> 1.0'
+#end
+#
+#target 'Acceptance Tests' do
+#    use_frameworks!
+#    
+#    pod 'Nimble', '~> 5.1'
+#    pod 'Quick', '~> 1.0'
+#    pod 'KIF', '~> 3.0', :configurations => ['Debug']
+#end

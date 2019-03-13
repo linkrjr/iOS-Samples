@@ -1,0 +1,4 @@
+
+java_library(
+  name = 'dummy_java_for_buck_project',
+)
