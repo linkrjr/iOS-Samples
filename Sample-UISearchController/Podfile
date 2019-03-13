@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '12.0'
+use_frameworks!
+
+target 'Sample-UISearchController' do
+  pod 'SnapKit'
+end
+
+target 'Sample-UISearchControllerTests' do
+
+end
+
