@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '12.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+# link_with 'Sample-RxSwift', 'RxSwiftPlayground'
+
+target 'Sample-RxSwift' do
+  pod 'RxSwift',    '~> 2.0'
+  pod 'RxCocoa',    '~> 2.0'
+  pod 'RxBlocking', '~> 2.0'
+end
+
