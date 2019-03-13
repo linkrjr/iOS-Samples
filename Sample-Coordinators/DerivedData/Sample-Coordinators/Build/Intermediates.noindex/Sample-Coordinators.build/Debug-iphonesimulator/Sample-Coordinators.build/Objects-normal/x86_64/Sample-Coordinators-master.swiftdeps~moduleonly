@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "62832e8a1d97315a3f1c4e7f5de72937"
+build_time: [1552449925, 76907000]
+inputs:
+  "/Users/rgomes/Projects/ios/Sample-Coordinators/Sample-Coordinators/ModalBranch/ModalBranchCoordinator.swift": [1552440035, 0]
+  "/Users/rgomes/Projects/ios/Sample-Coordinators/Sample-Coordinators/MainFlow/MainStepTwoViewController.swift": [1552439459, 0]
+  "/Users/rgomes/Projects/ios/Sample-Coordinators/Sample-Coordinators/Branch/BranchOneViewController.swift": [1552437624, 0]
+  "/Users/rgomes/Projects/ios/Sample-Coordinators/Sample-Coordinators/MainFlow/MainStepOneViewController.swift": [1552438501, 0]
+  "/Users/rgomes/Projects/ios/Sample-Coordinators/Sample-Coordinators/MainFlow/MainCoordinator.swift": [1552449823, 0]
+  "/Users/rgomes/Projects/ios/Sample-Coordinators/Sample-Coordinators/ModalBranch/ModalBranchOneViewController.swift": [1552439960, 0]
+  "/Users/rgomes/Projects/ios/Sample-Coordinators/Sample-Coordinators/AppDelegate.swift": [1552449924, 0]
+  "/Users/rgomes/Projects/ios/Sample-Coordinators/Sample-Coordinators/Branch/BranchCoordinator.swift": [1552438251, 0]
