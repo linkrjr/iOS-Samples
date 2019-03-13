@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8154.4" systemVersion="14E46" minimumToolsVersion="Automatic">
+    <entity name="Recipe" representedClassName=".Recipe" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="recipes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-315" positionY="-27" width="128" height="88"/>
+        <element name="Recipe" positionX="-54" positionY="15" width="128" height="73"/>
+    </elements>
+</model>
